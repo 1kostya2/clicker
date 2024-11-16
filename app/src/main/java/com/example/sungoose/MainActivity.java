@@ -38,14 +38,14 @@ public class MainActivity extends AppCompatActivity {
             case 10:
             case 11:
             case 12:
-            case 13: title = "ААА, за что?"; textTitle.setTextColor(Color.BLUE); break;
+            case 13: title = "ААА, за что?"; textTitle.setTextColor(Color.RED); break;
             case 21:
             case 22:
             case 23: title = "Остановись, пожалуйста!"; textTitle.setTextColor(Color.RED); break;
             case 30:
             case 31:
             case 32:
-            case 33: title = "Хватит бить меня!"; textTitle.setTextColor(Color.GREEN); break;
+            case 33: title = "Хватит бить меня!"; textTitle.setTextColor(Color.RED); break;
             default: title = "Бей его"; textTitle.setTextColor(Color.BLACK);
     }
 
