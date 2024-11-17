@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             case 313: title = "ВЛ"; textTitle.setTextColor(Color.GREEN); break;
             case 432: title = "GY432"; textTitle.setTextColor(Color.GREEN); break;
             case 1:   name = "Играй";  textName.setTextColor(Color.BLUE); break;
-            default: title = "Бей его"; textTitle.setTextColor(Color.BLACK);
+            default: title = "Бей его"; textTitle.setTextColor(Color.MAGENTA);
     }
 
         textTitle.setText(title);
